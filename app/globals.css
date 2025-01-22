@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: O utfit;
+}
+.bg-\[url\(\"\/\)\] {
+  background-image: url("/"); 
+}
