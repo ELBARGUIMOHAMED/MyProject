@@ -40,7 +40,7 @@ export const NavBar = ({isDarkMode , setIsDarkMode}) => {
           <Image 
             src={isDarkMode ? assets.logo_dark :assets.logo  }
             alt="Logo"
-            className='alt=" " cursor-pointer mr-14'
+            className="w-28 cursor-pointer mr-14 "
             width={180} 
             height={40}
           />
