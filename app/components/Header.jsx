@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { assets } from "@/assets/assets"; // Ensure the correct path
-import { motion } from "motion/react"
+import { motion } from "motion/react";
 
 const Header = () => {
   return (
@@ -64,7 +64,7 @@ const Header = () => {
         </motion.a>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default Header;
